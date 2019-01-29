@@ -3,9 +3,13 @@ function getFirstSelector(selector) {
   return element[0]
 }
 
- function nestedTarget() {
-  let element = document.getElementById('nested').getElementsByClassName('target')
-  return element[0]
+//  function nestedTarget() {
+//   let element = document.getElementById('nested').getElementsByClassName('target')
+//   return element[0]
+// }
+
+function nestedTarget() {
+  return document.querySelector('div.target')
 }
 
 //  function deepestChild() {
