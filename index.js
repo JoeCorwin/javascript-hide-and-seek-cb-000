@@ -4,7 +4,8 @@ function getFirstSelector(selector) {
 }
 
  function nestedTarget() {
-  return document.getElementById('nested').getElementsByClassName('target')
+  let element = document.getElementById('nested').getElementsByClassName('target')
+  return element[0]
 }
 
 //  function deepestChild() {
